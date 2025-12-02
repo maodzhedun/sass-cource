@@ -4,83 +4,134 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/sass.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SASS Tutorial template</title>
+    <title>Lesson 06</title>
   </head>
   <body>
-    <div class="wrapper">
-      <main class="main">
-        <div class="container">
-          <a
-            class="main-logo"
-            href="https://sass-lang.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              class="main-logo-img"
-              src="/src/img/logo-sass.png"
-              alt="Sass logo"
-              width="360"
-              height="360"
-            />
-          </a>
 
-          <h1 class="main-title title">
-            <span>Sass</span> <br />simple starter
-            <a
-              class="main-title-link"
-              href="https://github.com/goitacademy/vite-sass-app-template"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              template
-            </a>
-          </h1>
 
-          <ul class="main-badges badges">
-            <li class="badges-item">
-              <a class="badges-link" href="https://vitejs.dev/" target="_blank">Vite</a>
-            </li>
-            <li class="badges-item">
-              <a
-                class="badges-link"
-                href="https://elad2412.github.io/the-new-css-reset/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                The New CSS Reset
-              </a>
-            </li>
-            <li class="badges-item">
-              <a
-                class="badges-link"
-                href="https://www.npmjs.com/package/autoprefixer"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Autoprefixer
-              </a>
-            </li>
-            <li class="badges-item">
-              <a
-                class="badges-link"
-                href="https://www.npmjs.com/package/postcss-sort-media-queries"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                postcss-sort-media-queries
-              </a>
-            </li>
-          </ul>
+        <!-- Primary Notification -->
+        <div class="notification-primary">
+            <svg class="notification-icon" width="20" height="20">
+                <use href="./src/img/icons.svg#icon-primary"></use>
+            </svg>
+            
+            <p class="notification-text">Primary</p>
+            
+            <button class="notification-btn" aria-label="Close button">
+                <svg class="notification-btn-icon" width="16" height="16">
+                    <use href="./src/img/icons.svg#icon-close"></use>
+                </svg>
+            </button>
         </div>
-      </main>
-      <footer class="footer">
-        <div class="container">
-          Made with ❤ by
-          <a href="https://goit.global/ua/" target="_blank" rel="noopener noreferrer"> GoIT </a>
+
+        <!-- Success Notification -->
+        <div class="notification-success">
+            <svg class="notification-icon" width="20" height="20">
+                <use href="./src/img/icons.svg#icon-check"></use>
+            </svg>
+            
+            <p class="notification-text">Success</p>
+            
+            <button class="notification-btn" aria-label="Close button">
+                <svg class="notification-btn-icon" width="16" height="16">
+                    <use href="./src/img/icons.svg#icon-close"></use>
+                </svg>
+            </button>
         </div>
-      </footer>
-    </div>
+
+        <!-- Info Notification -->
+        <div class="notification-info">
+            <svg class="notification-icon" width="20" height="20">
+                <use href="./src/img/icons.svg#icon-info"></use>
+            </svg>
+            
+            <p class="notification-text">Info</p>
+            
+            <button class="notification-btn" aria-label="Close button">
+                <svg class="notification-btn-icon" width="16" height="16">
+                    <use href="./src/img/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+   
+<!-- lesson 07
+    Task card with Reminder and Completed
+<div class="task">
+  <div class="task-info">
+      <div class="task-caption">Send benefit review by Sunday</div>
+      <div class="task-deadline">Due date: <span class="task-deadline-date">December 23, 2023</span></div>
+      <div class="performer">
+          <img class="performer-avatar" src="https://i.pravatar.cc/32?img=1" alt="George Fields">
+          <div class="performer-bio">George Fields</div>
+      </div>
+  </div>
+  <div class="task-badges">
+      <div class="badge-info">Reminder</div>
+      <div class="badge badge-completed">Completed</div>
+  </div>
+</div>
+
+
+
+ Task card with Call and Ended
+
+<div class="task">
+  <div class="task-info">
+      <div class="task-caption">Send benefit review by Sunday</div>
+      <div class="task-deadline">Due date: <span class="task-deadline-date">December 23, 2023</span></div>
+      <div class="performer">
+          <img class="performer-avatar" src="https://i.pravatar.cc/32?img=1" alt="George Fields">
+          <div class="performer-bio">George Fields</div>
+      </div>
+  </div>
+  <div class="task-badges">
+      <div class="badge-info">Call</div>
+      <div class="badge badge-ended">Ended</div>
+  </div>
+</div> -->
+
+<!-- Task card with Reminder and Active -->
+<!-- <div class="task">
+  <div class="task-info">
+      <div class="task-caption">Send benefit review by Sunday</div>
+      <div class="task-deadline">Due date: <span class="task-deadline-date">December 23, 2023</span></div>
+      <div class="performer">
+          <img class="performer-avatar" src="https://i.pravatar.cc/32?img=1" alt="George Fields">
+          <div class="performer-bio">George Fields</div>
+      </div>
+  </div>
+  <div class="task-badges">
+      <div class="badge-info">Reminder</div>
+      <div class="badge badge-active">Active</div>
+  </div>
+</div> --> 
+
+    <!-- 
+    Lesson-06-2 
+    <button class="button" type="button">
+      <svg class="button-icon"></svg>
+      <span class="button-label">Ordering</span>
+    </button> -->
+
+    
+    <!-- 
+    Lesson-06-1
+    <section class="section">
+      <h1 class="title">Page title</h1>
+      <p class="text">
+        Page text - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Eveniet officiis veniam asperiores quaerat distinctio voluptates sed.
+        Placeat nemo perferendis possimus quisquam? Quasi doloremque, rerum
+        animi aperiam ex quas cupiditate excepturi?
+      </p>
+    </section> -->
+
+
+    <!-- <button class="small-btn" type="button">Click me :)</button> -->
+    <!-- <button class="btn-sm">Small</button>
+    <button class="btn-md" type="button">Regular</button>
+    <button class="btn-lg" type="button">Large</button>
+    <button class="btn-xl" type="button">X-Large</button> -->
 
     <script type="module" src="./src/js/main.js"></script>
   </body>
